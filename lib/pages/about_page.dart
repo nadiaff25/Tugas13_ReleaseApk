@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class AboutPage extends StatelessWidget {
   const AboutPage({super.key});
 
- @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -20,10 +20,10 @@ class AboutPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircleAvatar(
-              radius: 50, // Adjust radius size as desired
-              backgroundImage: AssetImage('assets/images/nadia.jpg'), // Replace with your photo path
+              radius: 50,
+              backgroundImage: AssetImage('assets/images/nadia.jpg'),
             ),
-            SizedBox(height: 20), // Spacer between photo and the next text
+            SizedBox(height: 20),
             Text(
               "Nadia Fitriani",
               style: TextStyle(
@@ -31,16 +31,16 @@ class AboutPage extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 10), // Spacer between name and student ID
+            SizedBox(height: 10),
             Text(
               "2106132",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
-            SizedBox(height: 10), // Spacer between student ID and program name
+            SizedBox(height: 10),
             Text(
-              "Teknik Informatika B",
+              "Teknik Informatika Kelas B",
               style: TextStyle(
                 fontSize: 16,
               ),
